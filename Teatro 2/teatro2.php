@@ -62,36 +62,6 @@ class Teatro {
         $this->setDireccion($nuevaDir);
     }
 
- /*   public function verNombreFunciones()
-    {
-       return "1: " . $this->getFunciones()[0]['nombre'] . "\n" .
-              "2: " . $this->getFunciones()[1]['nombre'] . "\n" .
-              "3: " . $this->getFunciones()[2]['nombre'] . "\n" .
-              "4: " .$this->getFunciones()[3]['nombre'] . "\n";
-    }
-
-    public function verPrecioFunciones()
-    {
-        return "1: $" . $this->getFunciones()[0]['precio'] . "\n" .
-               "2: $" . $this->getFunciones()[1]['precio'] . "\n" .
-               "3: $" . $this->getFunciones()[2]['precio'] . "\n" .
-               "4: $" .$this->getFunciones()[3]['precio'] . "\n";
-    }
-
-    public function cambiarNombreFunciones($numFuncion, $nuevaFuncion)
-    {
-        $funcionNombre = $this->getFunciones();
-        $funcionNombre[$numFuncion - 1]['nombre'] = $nuevaFuncion;
-        $this->setFunciones($funcionNombre);
-    }
-
-    public function cambiarPrecioFunciones($numFuncion, $nuevoPrecio)
-    {
-        $funcionPrecio = $this->getFunciones();
-        $funcionPrecio[$numFuncion - 1]['precio'] = $nuevoPrecio;
-        $this->setFunciones($funcionPrecio);
-    }
-*/
 
     public function __toString()
     {
